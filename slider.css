@@ -1,0 +1,84 @@
+.slider{
+    height: auto;
+}
+.slider img{
+    width: 100%;
+}
+.slider--title{
+    color: #112f41;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: right;
+    font-family: RobotoB;
+    position: relative;
+}
+
+.slider--title h3{
+    color: rgb(65, 89, 89);
+    font-family: Roboto;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+@media screen and (max-width:767px) {
+  .slider--title{
+    text-align: center;
+}
+}
+@media screen and (min-width:767px) {
+  .slider--title{
+    text-align: center;
+    right:5%;
+}
+}
+@media screen and (min-width:930px) {
+  .slider--title{
+    text-align: right;
+    right:5%;
+    top:40px;
+}
+}
+@media screen and (min-width:1300px) {
+  .slider--title{
+    text-align: right;
+    right:10%;
+    top:70px;
+}
+}
+@media screen and (min-width:1400px) {
+  .slider--title{
+    text-align: right;
+    right:15%;
+    top:120px;
+}
+}
+
+
+/*BRANDS*/
+.brands{
+    margin-top: 20px;
+    padding-top: 20px;
+    height: 150px;
+    -webkit-box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.75);
+}
+
+.brands--container_element{
+    padding: 0 50px 0 50px;
+    border-right: 1px solid #e8e8e8; 
+    
+}
+.brands--container_element:last-child{
+     border-right: 0px solid #e8e8e8;
+}
+
+.brands--container_element img{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: 1s;
+}
+.brands--container_element img:hover{
+    transform: scale(1.2);
+}

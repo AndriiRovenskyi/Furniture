@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Furniture</title>
+    <link href="header.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <link href="style-delivery,contacts.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="img/ico.png">
+</head>
+
+<body>
+    <!--   HEADER-->
+    <header>
+        <div class="header--container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12 logo header">
+                    <a href="index.html"><img src="img/777.png"></a>
+                </div>
+
+                <div class="col-lg-2 col-md-2 hidden-xs hidden-sm header">
+                    <p><img src="img/phone1.png" height="15">+38 (063) 123 45 67</p>
+                    <p><img src="img/phone1.png" height="15">+38 (063) 123 45 67</p>
+                </div>
+
+                <div class="col-lg-2 col-md-2 hidden-xs hidden-sm header">
+                    <p><span><img src="img/email.png" height="12"></span>furniture@gmail.ua</p>
+                    <p><span><img src="img/skype.png" height="12"></span>furniture.1576546884</p>
+                </div>
+
+                <div class="col-lg-2 col-md-2 hidden-sm hidden-xs header" onclick="contactUs()">
+                    <div class="header--container_btn buttons">
+                        <p>Звязатись з нами</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs header header--container_search">
+                    <input type="text" name="search" placeholder="Пошук..">
+                </div>
+            </div>
+        </div>
+        <!--    MENU-->
+        <div class="menu">
+            <ul class="nav" id="myNav">
+                <li><a class="active" href="index.html">Головна</a></li>
+                <li><a href="index.html#categorys">Каталог</a></li>
+                <li><a href="deliver.html">Доставка та оплата</a></li>
+                <li><a href="about_us.html">Про нас</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!--    DELIVER-->
+
+    <section class="deliver">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1>Доставка</h1></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="img/deliver,contacs,about/3.jpg" width="300px">
+                <h3>Самовивіз</h3>
+                <p>Ви можете самостійно приїхати і забрати Ваш товар з нашого складу <span>м.Львів вул.Наукова 58</span></p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="img/deliver,contacs,about/5.jpg" width="300px">
+                <h3>Нова пошта</h3>
+                <p>Доставка в отделение Новой Почты</p>
+                <p>С помощью доставки Новой Почтой, Вы можете получить товар даже в самых отдаленных уголках Украины</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="img/deliver,contacs,about/4.jpg" width="300px">
+                <h3>Мист Экспресс</h3>
+                <p>Доставка в пункт выдачи "Мист Экспресс" ("Точка")</p>
+                <p>Доставка курьером на дом</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="payment">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1>Оплата</h1></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="img/deliver,contacs,about/6.jpg" width="300px">
+                <h3>Privat24</h3>
+                <p>Прямим банківським переводом</p>
+                <p><span>7214 9032 7645 1090</span></p>
+                <p><span>Фурнітурчик Олксій Олексійович</span></p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="img/deliver,contacs,about/7.jpg" width="300px">
+                <h3>LigPay</h3>
+                <p>А також любою вам зручною системою</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="img/deliver,contacs,about/8.jpg" width="300px">
+                <h3>Готівкою</h3>
+                <p>При полученні товару з нашого складу</p>
+                <p>Наложним платежем у відділенні Нової Пошти</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER-->
+
+    <footer>
+        <div class="footer--conteiner">
+            <div class="row">
+
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 footer--conteiner_phone">
+                    <p>+38 (063) 123 45 67</p>
+                    <p>+38 (063) 123 45 67</p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 footer--conteiner_mail">
+                    <p><span><img src="img/email.png" height="12"></span>furniture@gmail.ua</p>
+                    <p><span><img src="img/skype.png" height="12"></span>furniture.1576546884</p>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 footer--conteiner_mail">
+                    <p><span><img src="img/location.png" height="12"></span>Львів, Наукова 58</p>
+
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <div class="footer--conteiner_soc">
+                        <img src="img/socIcon/fb.png">
+                        <img src="img/socIcon/google.png">
+                        <img src="img/socIcon/twiter.png">
+                        <img src="img/socIcon/vk.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <p class="create">©2016 Design by AndrewR</p>
+        <!--    MODAL CONTACT US-->
+
+        <div class="overlay" id="myModal2">
+            <div class="overlay--content">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 overlay--content_title">
+                        <h1>Відправте нам повідомлення</h1></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <form>
+                            <h3>Ім'я</h3>
+                            <input type=text>
+                            <h3>E-mail</h3>
+                            <input type=text>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <form>
+                            <h3>Повідомлення</h3>
+                            <textarea placeholder="Пишіть тут..."></textarea>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="header--container_btn buttons btn_buy" onclick="close1()">
+                            <p>Закрити</p>
+                        </div>
+                        <div class="header--container_btn buttons btn_buy" onclick="close1()">
+                            <p>Відправити</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+
+</html>

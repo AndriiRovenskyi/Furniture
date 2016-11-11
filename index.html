@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Furniture</title>
+    <link href="header.css" rel="stylesheet">
+    <link href="slider.css" rel="stylesheet">
+    <link href="main-container.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="img/ico.png">
+</head>
+
+<body>
+    <!--   HEADER-->
+    <header>
+        <div class="header--container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12 logo header">
+                    <a href="index.html"><img src="img/777.png"></a>
+                </div>
+
+                <div class="col-lg-2 col-md-2 hidden-xs hidden-sm header">
+                    <p><img src="img/phone1.png" height="15">+38 (063) 123 45 67</p>
+                    <p><img src="img/phone1.png" height="15">+38 (063) 123 45 67</p>
+                </div>
+
+                <div class="col-lg-2 col-md-2 hidden-xs hidden-sm header">
+                    <p><span><img src="img/email.png" height="12"></span>furniture@gmail.ua</p>
+                    <p><span><img src="img/skype.png" height="12"></span>furniture.1576546884</p>
+                </div>
+
+                <div class="col-lg-2 col-md-2 hidden-sm hidden-xs header" onclick="contactUs()">
+                    <div class="header--container_btn buttons">
+                        <p>Звязатись з нами</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-4 hidden-xs header header--container_search">
+                    <input type="text" name="search" placeholder="Пошук..">
+                </div>
+            </div>
+        </div>
+        <!--    MENU-->
+        <div class="menu">
+            <ul class="nav" id="myNav">
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#categorys" class="qw">Каталог</a></li>
+                <li><a href="deliver.html">Доставка та оплата</a></li>
+                <li><a href="about_us.html">Про нас</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+                </li>
+            </ul>
+        </div>
+        <!-- MODAL_CONTACT_US-->
+    </header>
+
+    <!--    SLIDER-->
+
+    <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 slider"><img src="img/fon2.jpg"></div>
+        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 slider--title">
+            <h1>мебельна фурнітура</h1>
+            <h3>доставка по всій Україні</h3>
+        </div>
+    </div>
+
+    <!--    BRANDS-->
+
+    <div class="brands hidden-sm hidden-xs">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs brands--container_element"><img src="img/brands/2.jpg"></div>
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs brands--container_element"><img src="img/brands/3.jpg"></div>
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs brands--container_element"><img src="img/brands/1.jpg"></div>
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs brands--container_element"><img src="img/brands/4.jpg"></div>
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs brands--container_element"><img src="img/brands/5.jpg"></div>
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs brands--container_element"><img src="img/brands/6.jpg"></div>
+
+        </div>
+    </div>
+
+    <!--    MAIN CONTAINER-->
+
+    <div class="main--container" id="categorys">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="main--container_title">Категорії</h1></div>
+            <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
+                <div class="main--container_box">
+                    <a href="under-category.html">
+                        <img src="img/category/1.jpg">
+                    </a>
+                    <a href="under-category.html" class="main--container_box_title">Мебельні ручки</a>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
+                <div class="main--container_box">
+                    <a href="#">
+                        <img src="img/category/2.jpg">
+                    </a>
+                    <a href="#" class="main--container_box_title">Дверні ручки</a>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
+                <div class="main--container_box">
+                    <a href="#">
+                        <img src="img/category/3.jpg">
+                    </a>
+                    <a href="#" class="main--container_box_title">Вішаки</a>
+
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
+                <div class="main--container_box">
+                    <a href="#">
+                        <img src="img/category/4.jpg">
+                    </a>
+                    <a href="#" class="main--container_box_title">Замки</a>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
+                <div class="main--container_box">
+                    <a href="#">
+                        <img src="img/category/5.jpg">
+                    </a>
+                    <a href="#" class="main--container_box_title">Наповнення шафи-купе</a>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
+                <div class="main--container_box">
+                    <a href="#">
+                        <img src="img/category/6.jpg">
+                    </a>
+                    <a href="#" class="main--container_box_title">Полиці</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  FOOTER-->
+
+    <footer>
+        <div class="footer--conteiner">
+            <div class="row">
+
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 footer--conteiner_phone">
+                    <p>+38 (063) 123 45 67</p>
+                    <p>+38 (063) 123 45 67</p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 footer--conteiner_mail">
+                    <p><span><img src="img/email.png" height="12"></span>furniture@gmail.ua</p>
+                    <p><span><img src="img/skype.png" height="12"></span>furniture.1576546884</p>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 footer--conteiner_mail">
+                    <p><span><img src="img/location.png" height="12"></span>Львів, Наукова 58</p>
+
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <div class="footer--conteiner_soc">
+                        <img src="img/socIcon/fb.png">
+                        <img src="img/socIcon/google.png">
+                        <img src="img/socIcon/twiter.png">
+                        <img src="img/socIcon/vk.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <p class="create">©2016 Design by AndrewR</p>
+
+        <!--    MODAL CONTACT US-->
+
+        <div class="overlay" id="myModal2">
+            <div class="overlay--content">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 overlay--content_title">
+                        <h1>Відправте нам повідомлення</h1></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <form>
+                            <h3>Ім'я</h3>
+                            <input type=text>
+                            <h3>E-mail</h3>
+                            <input type=text>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <form>
+                            <h3>Повідомлення</h3>
+                            <textarea placeholder="Пишіть тут..."></textarea>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="header--container_btn buttons btn_buy" onclick="close1()">
+                            <p>Закрити</p>
+                        </div>
+                        <div class="header--container_btn buttons btn_buy" onclick="close1()">
+                            <p>Відправити</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

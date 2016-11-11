@@ -1,0 +1,151 @@
+.product--container {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.product--img img {
+    width: 300px;
+    /*     border: solid 1px #f1f1f1; */
+    margin: auto;
+    display: block;
+}
+
+.product--img {
+    margin-bottom: 30px;
+}
+
+.product--title {
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 20px;
+    color: #ed553b;
+}
+
+.product--title h1 {
+    font-weight: bold;
+}
+
+.product--data {
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 20px;
+}
+
+.product--data span {
+    display: block;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.product--data span>span {
+    display: inline-block;
+    font-weight: 100;
+}
+
+.product--price {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.product--price span {
+    font-size: 30px;
+    font-weight: 900;
+    color: #ed553b;
+}
+
+.product--buy {
+    display: inline-block;
+    margin-left: 50px;
+    width: 100px;
+    height: 47px;
+    background-color: #ed553b;
+    box-shadow: inset 0px -3px 0px 0px rgba(31, 131, 29, 0.137);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product--buy p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2.9;
+    text-align: center;
+}
+
+
+/*MODAL BUY*/
+
+#myModal {
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0px;
+    z-index: 10;
+}
+
+.overlay--content {
+    padding: 0 30px 25px 30px;
+    max-width: 550px;
+    background: #fff;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+    z-index: 999;
+    top:-750px;
+}
+
+.overlay--content h1 {
+    font-weight: 900;
+    padding: 10px 0 5px 0;
+    border-bottom: 5px solid #ed553b;
+    margin-bottom: 10px;
+}
+
+.overlay--content input[type=text],
+select {
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 10px;
+}
+
+.pay {
+    margin-top: 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+}
+
+.pay form {
+    font-size: 16px;
+}
+
+.pay form input[type=radio] {
+    margin-top: 30px;
+}
+
+.pay img {
+    margin-left: 10px;
+}
+
+.pay {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.btn_buy {
+    width: 200px;
+    margin-top: 30px;
+}

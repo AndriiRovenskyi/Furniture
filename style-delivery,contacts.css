@@ -1,0 +1,122 @@
+/*DELIVER*/
+
+.deliver{
+   margin: auto;
+    max-width: 1200px;
+    font-size: 20px;
+
+}
+.deliver h1{
+    
+    font-weight: 900;
+    padding: 50px 0 5px 0;
+    border-bottom: 5px solid #ed553b;
+    margin-bottom: 50px;
+  
+}
+
+.deliver h3{
+    font-weight: 900;
+    color:#ed553b;
+}
+.deliver h3,p{
+    text-align: center;
+}
+.deliver span{
+    font-weight: 500;
+    color:#ed553b;
+}
+.deliver img{
+    display: block;
+    margin: auto;
+}
+
+
+.payment{
+   margin: auto;
+    max-width: 1200px;
+    font-size: 20px;
+    margin-bottom: 100px
+}
+.payment h1{
+    
+    font-weight: 900;
+    padding: 50px 0 5px 0;
+    border-bottom: 5px solid #ed553b;
+    margin-bottom: 50px;
+  
+}
+
+.payment h3{
+    font-weight: 900;
+    color:#ed553b;
+}
+.payment h3,p{
+    text-align: center;
+}
+.payment span{
+    font-weight: 500;
+    color:#ed553b;
+}
+.payment img{
+    display: block;
+    margin: auto;
+}
+
+@media screen (min-width:765px) and (max-width:900px) {
+  .deliver img{
+    width: 200px;
+}
+    .payment img{
+    width: 200px;
+}
+}
+
+/*CONTACTS*/
+
+.contacts,.about_us{
+    margin: auto;
+    max-width: 1200px;
+    font-size: 20px;
+    margin-bottom: 100px
+}
+.contacts, h1{
+    
+    font-weight: 900;
+    padding: 50px 0 5px 0;
+    border-bottom: 5px solid #ed553b;
+    margin-bottom: 50px;
+  
+}
+
+.contacts h3{
+    font-weight: 900;
+    color:#ed553b;
+}
+.contacts h3,p{
+    text-align: center;
+}
+.contacts ul{
+    list-style: none;
+   text-align: center;
+}
+
+.map{
+    margin-top: 50px;
+}
+
+
+/*ABOUT_US*/
+.about_us p{
+text-align: left;
+}
+
+.about_us h1{
+    
+    font-weight: 900;
+    padding: 50px 0 5px 0;
+    border-bottom: 5px solid #ed553b;
+    margin-bottom: 50px;
+  
+}
+

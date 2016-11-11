@@ -1,0 +1,125 @@
+footer{
+    background: #333;
+    margin-top: 50px;
+    
+}
+.footer--conteiner{
+    padding: 0 50px 0 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer--conteiner_phone,.footer--conteiner_mail{
+    color: #999999;
+    font-size: 16px;
+    margin-top: 25px;
+  
+}
+.footer--conteiner_mail span{
+    margin-right: 10px;
+}
+.footer--conteiner_soc{
+   
+    margin: auto;
+    
+}
+.footer--conteiner{
+   
+    border-bottom: 2px solid #999999;
+}
+.create{
+    text-align: center;
+    margin-top: 15px;
+    color:#999999;
+    padding-bottom: 15px;
+}
+
+
+/*MODAL*/
+
+#myModal,#myModal2{
+    display: none;
+}
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.9);
+    top: 0px;
+    z-index: 10;
+}
+.overlay--content{
+    padding: 0 30px 25px 30px; 
+    max-width: 550px;
+    background: #fff;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.overlay--content h1{
+    font-weight: 900;
+    padding: 10px 0 5px 0;
+    border-bottom: 5px solid #ed553b;
+    margin-bottom: 10px;
+  
+}
+
+.overlay--content input[type=text],select{
+    width:200px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 10px;
+}
+
+.pay{
+    margin-top: 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+}
+.pay form{
+    font-size: 16px; 
+}
+.pay form input[type=radio]{
+    margin-top: 30px;
+}
+.pay img{
+    margin-left: 10px;
+}
+.pay{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.btn_buy{
+    width: 200px;
+    margin-top: 30px;
+}
+
+#myModal2 textarea{
+    width: 100%;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+     padding: 10px;
+}
+
+#myModal2 .btn_buy{
+    display: inline-block;
+  
+}
+#myModal2 .btn_buy:last-child{
+     float: right;
+}
+
+
+@media screen and (max-width:478px) {
+    #myModal2 .btn_buy:last-child {
+        float: none;
+    }
+}
